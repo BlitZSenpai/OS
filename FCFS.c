@@ -22,7 +22,7 @@ int main()
   printf("\tPROCESS \tBURST TIME \tWAITING TIME \tTURNAROUND TIME \n");
   for (i = 0; i <= n; i++)
     printf("\n \t P%d \t\t %d \t\t %d \t\t %d", i, bt[i], wt[i], tat[i]);
-  printf("\n Average Waiting Time:", wtavg / n);
-  printf("\n Turnaround Time:", tatavg / n);
+  printf("\n Average Waiting Time: %f", wtavg / n);
+  printf("\n Turnaround Time: %f", tatavg / n);
   return 0;
 }
